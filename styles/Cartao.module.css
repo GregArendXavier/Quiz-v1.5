@@ -1,0 +1,15 @@
+.cartao {
+    display: flex;
+    color: #fff;
+    min-width: 400px;
+    min-height: 80px;
+    font-size: 2rem;
+    padding: 20px;
+    margin: 3px;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.cartao :hover {
+    color: #ccc
+}
