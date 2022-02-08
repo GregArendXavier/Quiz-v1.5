@@ -104,29 +104,29 @@ const questions: QuestaoModel[] = [
         RespostaModel.errada('x = 6'),
         RespostaModel.certa('x = +-8'),
     ], 'matematica'),
-    new QuestaoModel(2, 'Quanto é o valor de "x" em x² - 64?', [
-        RespostaModel.errada('x = 8'),
-        RespostaModel.errada('x = 12'),
-        RespostaModel.errada('x = 6'),
-        RespostaModel.certa('x = +-8'),
+    new QuestaoModel(2, 'Qual conjunto numérico engloba somente os numeros positivos?', [
+        RespostaModel.errada('Reais'),
+        RespostaModel.errada('Inteiros'),
+        RespostaModel.errada('Positivos'),
+        RespostaModel.certa('Naturais'),
     ], 'matematica'),
-    new QuestaoModel(3, 'Quanto é o valor de "x" em x² - 64?', [
-        RespostaModel.errada('x = 8'),
-        RespostaModel.errada('x = 12'),
-        RespostaModel.errada('x = 6'),
-        RespostaModel.certa('x = +-8'),
+    new QuestaoModel(3, 'Qual o conjunto de número(s', [
+        RespostaModel.errada('3, 4'),
+        RespostaModel.errada('2'),
+        RespostaModel.errada('5'),
+        RespostaModel.certa('2, 5'),
     ], 'matematica'),
-    new QuestaoModel(4, 'Quanto é o valor de "x" em x² - 64?', [
-        RespostaModel.errada('x = 8'),
-        RespostaModel.errada('x = 12'),
-        RespostaModel.errada('x = 6'),
-        RespostaModel.certa('x = +-8'),
+    new QuestaoModel(4, 'Qual o conjunto de número(s) ', [
+        RespostaModel.errada('3, 5'),
+        RespostaModel.errada('2, 3'),
+        RespostaModel.errada('2, 5'),
+        RespostaModel.certa('3, 4'),
     ], 'matematica'),
-    new QuestaoModel(5, 'Quanto é o valor de "x" em x² - 64?', [
-        RespostaModel.errada('x = 8'),
-        RespostaModel.errada('x = 12'),
-        RespostaModel.errada('x = 6'),
-        RespostaModel.certa('x = +-8'),
+    new QuestaoModel(5, 'Qual a do delta na fórmula do Bhaskara?', [
+        RespostaModel.errada('B² + 4 x A x C'),
+        RespostaModel.errada('B² x 4 x A x C'),
+        RespostaModel.errada('B² x A x C - 4'),
+        RespostaModel.certa('B² - 4 x A x C'),
     ], 'matematica'),
     new QuestaoModel(6, 'Quanto é o valor de "x" em x² - 64?', [
         RespostaModel.errada('x = 8'),
@@ -134,7 +134,7 @@ const questions: QuestaoModel[] = [
         RespostaModel.errada('x = 6'),
         RespostaModel.certa('x = +-8'),
     ], 'matematica'),
-    new QuestaoModel(7, 'Quanto é o valor de "x" em x² - 64?', [
+    new QuestaoModel(7, 'é o valor de "x" em x² ', [
         RespostaModel.errada('x = 8'),
         RespostaModel.errada('x = 12'),
         RespostaModel.errada('x = 6'),
@@ -183,24 +183,6 @@ const questions: QuestaoModel[] = [
         RespostaModel.certa('x = +-8'),
     ], 'matematica'),
     new QuestaoModel(15, 'Quanto é o valor de "x" em x² - 64?', [
-        RespostaModel.errada('x = 8'),
-        RespostaModel.errada('x = 12'),
-        RespostaModel.errada('x = 6'),
-        RespostaModel.certa('x = +-8'),
-    ], 'matematica'),
-    new QuestaoModel(16, 'Quanto é o valor de "x" em x² - 64?', [
-        RespostaModel.errada('x = 8'),
-        RespostaModel.errada('x = 12'),
-        RespostaModel.errada('x = 6'),
-        RespostaModel.certa('x = +-8'),
-    ], 'matematica'),
-    new QuestaoModel(17, 'Quanto é o valor de "x" em x² - 64?', [
-        RespostaModel.errada('x = 8'),
-        RespostaModel.errada('x = 12'),
-        RespostaModel.errada('x = 6'),
-        RespostaModel.certa('x = +-8'),
-    ], 'matematica'),
-    new QuestaoModel(18, 'Quanto é o valor de "x" em x² - 64?', [
         RespostaModel.errada('x = 8'),
         RespostaModel.errada('x = 12'),
         RespostaModel.errada('x = 6'),

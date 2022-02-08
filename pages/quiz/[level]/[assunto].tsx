@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import Questionario from '../../components/Questionario'
-import QuestaoModel from '../../model/questao'
+import Questionario from '../../../components/Questionario'
+import QuestaoModel from '../../../model/questao'
 import { useRouter } from 'next/router'
 
 const BASE_URL = 'http://localhost:3000/api'
@@ -8,7 +8,23 @@ const BASE_URL = 'http://localhost:3000/api'
 export default function Quiz() {
   const router = useRouter()
 
+  let level = router.query.level
+
   let assunto = router.query.assunto
+
+  function timer () {
+    let value = 0
+    switch (level) {
+      case 'easy': value = 30;
+      break;
+      case 'medium': value = 10;
+      break;
+      case 'hard': value = 5;
+      break;
+      default: value = 30
+    }
+    return value
+  }
 
   const [idsDasQuestoes, setIdsDasQuestoes] = useState<number[]>([])
   const [questao, setQuestao] = useState<QuestaoModel>()
@@ -67,6 +83,7 @@ export default function Quiz() {
 
   return questao ? (
     <Questionario
+      tempoParaResponder={timer()}
       questao={questao}
       ultima={idProximaPergunta() === undefined}
       questaoRespondida={questaoRespondida}

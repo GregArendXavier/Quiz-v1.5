@@ -15,3 +15,7 @@
 .grupo1, .grupo2, .grupo3 {
     display: flex;
 }
+
+.levels {
+    display: flex;
+}
