@@ -4,13 +4,8 @@
     margin: 7px;
     border-radius: 15%;
     font-size: large;
-    color: #222
 }
 
 .button:hover {
     transform: scale(1.1);
-}
-
-.button:active {
-    border: solid 8px #fff;
 }
