@@ -3,7 +3,7 @@ import Questionario from '../../components/Questionario'
 import QuestaoModel from '../../model/questao'
 import { useRouter } from 'next/router'
 
-const BASE_URL = 'http://localhost:3000/api'
+const BASE_URL = 'https://quiz-v1-5.vercel.app/api'
 
 export default function Quiz() {
   const router = useRouter()
