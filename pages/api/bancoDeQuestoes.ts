@@ -368,11 +368,11 @@ const questions: QuestaoModel[] = [
         RespostaModel.errada('Egípcio'),
         RespostaModel.certa('Chinês'),
     ], 'historia'),
-    new QuestaoModel(46, 'Qual estado dos EUA fazia parte do México?', [
-        RespostaModel.errada('Virginia'),
-        RespostaModel.errada('New York'),
-        RespostaModel.errada('Alabama'),
-        RespostaModel.certa('California'),
+    new QuestaoModel(46, '', [
+        RespostaModel.errada(''),
+        RespostaModel.errada(''),
+        RespostaModel.errada(''),
+        RespostaModel.certa(''),
     ], 'esportes'),
     new QuestaoModel(47, 'Qual seleção foi campeã da primeira Copa do Mundo?', [
         RespostaModel.errada('Estados Unidos'),
@@ -416,11 +416,11 @@ const questions: QuestaoModel[] = [
         RespostaModel.errada('Bulls'),
         RespostaModel.certa('Lakers'),
     ], 'esportes'),
-    new QuestaoModel(54, '?', [
-        RespostaModel.errada(''),
-        RespostaModel.errada(''),
-        RespostaModel.errada(''),
-        RespostaModel.certa(''),
+    new QuestaoModel(54, 'Quantas derrotas Pelé e Garricha tem juntos pela seleção?', [
+        RespostaModel.errada('5'),
+        RespostaModel.errada('3'),
+        RespostaModel.errada('1'),
+        RespostaModel.certa('0'),
     ], 'esportes'),
     new QuestaoModel(55, 'Quem derrotou o Brasil no jogo conhecido como Maracanaço?', [
         RespostaModel.errada('Italia'),
@@ -431,14 +431,14 @@ const questions: QuestaoModel[] = [
     new QuestaoModel(56, 'Quem é o maior artilheiro de Copas do Mundo?', [
         RespostaModel.errada('Maradona'),
         RespostaModel.errada('Pelé'),
-        RespostaModel.errada('Cristiano Ronaldo'),
-        RespostaModel.certa('Ronaldo'),
+        RespostaModel.errada('Ronaldo'),
+        RespostaModel.certa('Klose'),
     ], 'esportes'),
     new QuestaoModel(57, 'Em que país foi sediada a primeira Copa do Mundo?', [
         RespostaModel.errada('Argentina'),
         RespostaModel.errada('EUA'),
         RespostaModel.errada('Inglaterra'),
-        RespostaModel.certa('Brasil'),
+        RespostaModel.certa('Uruguai'),
     ], 'esportes'),
     new QuestaoModel(58, 'Em quantos jogos são definidos os playoffs da NBA?', [
         RespostaModel.errada('2'),
