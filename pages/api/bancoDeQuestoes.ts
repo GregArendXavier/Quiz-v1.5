@@ -368,11 +368,11 @@ const questions: QuestaoModel[] = [
         RespostaModel.errada('Egípcio'),
         RespostaModel.certa('Chinês'),
     ], 'historia'),
-    new QuestaoModel(46, '', [
-        RespostaModel.errada(''),
-        RespostaModel.errada(''),
-        RespostaModel.errada(''),
-        RespostaModel.certa(''),
+    new QuestaoModel(46, 'A dupla Grenal é composta por que times?', [
+        RespostaModel.errada('Palmeiras e São Paulo'),
+        RespostaModel.errada('Juventude e Gremio'),
+        RespostaModel.errada('Juventude e Inter'),
+        RespostaModel.certa('Gremio e inter'),
     ], 'esportes'),
     new QuestaoModel(47, 'Qual seleção foi campeã da primeira Copa do Mundo?', [
         RespostaModel.errada('Estados Unidos'),
