@@ -392,11 +392,11 @@ const questions: QuestaoModel[] = [
         RespostaModel.errada('Alemanha'),
         RespostaModel.certa('Brasil'),
     ], 'esportes'),
-    new QuestaoModel(50, 'Em que ano foi implementado o plano Real?', [
-        RespostaModel.errada('2008'),
-        RespostaModel.errada('2000'),
-        RespostaModel.errada('1950'),
-        RespostaModel.certa('1994'),
+    new QuestaoModel(50, 'Quem é o atual melhor jogador do mundo(2021)?', [
+        RespostaModel.errada('Neymar'),
+        RespostaModel.errada('Lewandowski'),
+        RespostaModel.errada('CR7'),
+        RespostaModel.certa('Messi'),
     ], 'esportes'),
     new QuestaoModel(51, 'Qual time da NFL possui maior quantidade de Super Bowls?', [
         RespostaModel.errada('Ind. Colts'),
